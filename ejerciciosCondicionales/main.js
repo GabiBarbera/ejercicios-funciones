@@ -110,3 +110,36 @@
 //     }
 // }
 // licencia(edad, altura, vision)
+
+//Ejercicio 7 
+
+// let nombre = prompt("Ingrese su nombre")
+
+// function puedePasar(nombre1) {
+//     if (nombre1 !== "gabriel") {
+//         let pase = prompt("Ingrese su pase")
+//         if (pase !== "vip") {
+//             let entrada = prompt("Desea comprar entrada")
+//             if (entrada == "si") {
+//                 let cantidad = Number(prompt("ingrese monto"))
+//                 if (cantidad >= 1000) {
+//                     alert("Bienvenido")
+//                 } else {
+//                     alert("No puede pasar")
+//                 }
+//             } else {
+//                 alert("No pasa")
+//             }
+//         } else {
+//             alert("Pasa libre por su pase")
+//         }
+//     } else {
+//         alert("Pasa libre por su nombre")
+//     }
+// }
+
+
+// puedePasar(nombre)
+
+
+//Ejercicio 8 
