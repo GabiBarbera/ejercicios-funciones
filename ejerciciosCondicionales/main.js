@@ -143,3 +143,33 @@
 
 
 //Ejercicio 8 
+
+// for (let numeroIncognita = 3; numeroIncognita >= 1; numeroIncognita--) {
+//     let numerIngresado = Number(prompt("Ingrese un numero del 1 al 10"))
+//     switch (numerIngresado) {
+
+//         case 7:
+//             alert("Felicidades, adivinaste el numero")
+//             break;
+//         case 1:
+//         case 2:
+//         case 3:
+//         case 4:
+//         case 5:
+//         case 6:
+//             alert("El numero ingresado es menor, vuelve a intentarlo")
+//             break;
+//         case 8:
+//         case 9:
+//         case 10:
+//             alert("El numero ingresado es mayor, vuelve a intentarlo")
+//             break;
+//         case 11:
+//             alert("No adivinaste, suerte en tu proximo intento")
+//             break;
+//         default:
+//             alert("Por favor, selecciona un numero del 1 al 10")
+//             break;
+//     }
+// }
+
