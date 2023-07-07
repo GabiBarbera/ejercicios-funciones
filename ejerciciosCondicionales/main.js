@@ -173,3 +173,44 @@
 //     }
 // }
 
+//Ejercicio 9 
+
+// let queEres = Number(prompt("Ingresa tu edad"))
+// function persona(edad) {
+//     if (edad >= 0 && edad <= 12) {
+//         alert("Eres infante")
+//     } else if (edad >= 13 && edad <= 18) {
+//         alert("Eres adolescente")
+//     } else if (edad >= 19 && edad <= 45) {
+//         alert("Eres un mayor joven")
+//     } else if (edad >= 45 && edad <= 99) {
+//         alert("Eres un anciano")
+//     } else if (edad >= 100) {
+//         alert("En realidad tienes esa edad?")
+//     }
+// }
+// persona(queEres)
+
+//ejercicio 10
+// let respuestaJugador1 = prompt("Elegi: PIEDRA, PAPEL O TIJERA")
+// let respuestaJugador2 = prompt("Elegi: PIEDRA, PAPEL O TIJERA")
+// if (respuestaJugador1 === "piedra" && respuestaJugador2 === "piedra") {
+//     console.log("¡Han empatado!");
+// } if (respuestaJugador1 === "piedra" && respuestaJugador2 === "papel") {
+//     console.log("Jugador 2 ha ganado");
+// } if (respuestaJugador1 === "piedra" && respuestaJugador2 === "tijera") {
+//     console.log("jugador 1 ha ganado");
+// } if (respuestaJugador1 === "papel" && respuestaJugador2 === "papel") {
+//     console.log("han empatado");
+// } if (respuestaJugador1 === "papel" && respuestaJugador2 === "piedra") {
+//     console.log("jugador 1 ha ganado");
+// } if (respuestaJugador1 === "papel" && respuestaJugador2 === "tijera") {
+//     console.log("jugador 2 ha ganado");
+// } if (respuestaJugador1 === "tijera" && respuestaJugador2 === "piedra") {
+//     console.log("jugador 2 ha ganado");
+// } if (respuestaJugador1 === "tijera" && respuestaJugador2 === "papel") {
+//     console.log("jugador 1 ha ganado");
+// } if (respuestaJugador1 === "tijera" && respuestaJugador2 === "tijera") {
+//     console.log("han empatado");
+// }
+

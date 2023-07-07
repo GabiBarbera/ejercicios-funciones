@@ -150,7 +150,19 @@
 
 //Ejercicio 11 
 
-// const numeroMasGrande = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// function obtenerMaximo(numeros) {
 
-// const elMasGrande = Math.max(...numeroMasGrande)
-// console.log(elMasGrande)
+//     let maximo = numeros[0];
+//     for (let i = 1; i < numeros.length; i++) {
+//       if (numeros[i] > maximo) {
+//         maximo = numeros[i];
+//       }
+//     } 
+//     return maximo;
+//   }
+
+
+//   let numeros = [5, 12, 3, 9, 7, 4, 11, 8, 6, 10];
+
+//   let maximo = obtenerMaximo(numeros);
+//   console.log("El número más grande es " + maximo);
